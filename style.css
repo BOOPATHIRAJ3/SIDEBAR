@@ -1,0 +1,33 @@
+html,body{
+    margin: 0;
+}
+.sidebar{
+    background: linear-gradient(45deg,deeppink,blueviolet);
+    float: left;
+    width: 250px;
+    height: 100vh;
+    box-shadow: 0 3px 20px black;
+    padding: 15px;
+}
+.sidebar a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    padding: 25px 20px 25px;
+}
+
+.sidebar a:hover{
+    background: linear-gradient(90deg,coral, deeppink);
+    border-radius: 50px;
+}
+
+.sidebar img{
+    height: 150px;
+    width: 150px;
+    border: 10px solid blue;
+    border-radius: 250px;
+    margin: auto;
+    display: block;
+}
